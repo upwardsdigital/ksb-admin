@@ -1,0 +1,112 @@
+#news-page .body{
+    padding: 50px 0 100px 0;
+}
+.news{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+.news__list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.news-details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.news-details__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 85px;
+    padding: 41px 0;
+    border-top: 2px solid #F0F0F0;
+    border-bottom: 2px solid #F0F0F0;
+}
+.news-details__social-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-details__date{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+}
+.news-details__social-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.news-details__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 161px;
+}
+.news-details__title{
+    width: 100%;
+    color: #282828;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.news-details__text{
+    width: 100%;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+    text-align: start;
+}
+
+
+@media screen and (max-width: 730px) {
+    .news__list{
+        grid-template-columns: 1fr;
+    }
+    .news-details__info{
+        padding: 0;
+    }
+    .news-details{
+        margin-bottom: 70px;
+    }
+    .news-details__container{
+        padding: 36px 0;
+        gap: 70px;
+    }
+    .news-details__title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .news-details__text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+}

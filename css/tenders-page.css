@@ -1,0 +1,237 @@
+#tenders-page .body{
+    padding: 50px 0 100px 0;
+}
+
+.tenders{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tenders__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+.tenders__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.tender{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid #D2D2D2;
+}
+.tender__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.tender__header-title{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.tender__header-icon{
+    flex-shrink: 0;
+}
+.tender__body{
+    display: none;
+    width: 100%;
+    padding: 50px 20px;
+}
+.tender.active .tender__header-icon{
+    transform: rotate(180deg);
+}
+.tender.active .tender__header-title{
+    color: #BF1A1F;
+}
+.tender__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tender__info-title{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+.tender__info-text{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+.tender__info-slider{
+    width: 100%;
+    margin: 30px 0;
+}
+.tender__info-slider-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.tender__info-slider-item-wrapper{
+    width: 508px;
+    height: 288px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.tender__info-slider .slick-dots{
+    position: absolute;
+    bottom: -20px;
+}
+.tender__info-slider .slick-dots li{
+    list-style: none;
+    width: unset;
+    height: unset;
+}
+.tender__info-slider .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+.tender__info-slider .slick-dots li button:before{
+    display: none;
+}
+.tender__info-slider .slick-dots .slick-active button{
+    background: #BF1A1F;
+}
+
+.tender__info-price-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tender__info-price{
+    color: #282828;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+.tender__info-link{
+    color: #BF1A1F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.tenders__contacts-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.tenders__contacts-box__note{
+    text-align: start;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%;
+}
+.tenders__contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tenders__contacts div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.tenders__contacts p, .tenders__contacts a{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+}
+
+.tenders__subtitle{
+    color: #282828;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 730px) {
+    .tender__header-title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .tender__info-title{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .tender__info-text{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .tender__body{
+        padding: 15px 0;
+    }
+    .tender__info-price{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .tender__info-link{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .tenders__contacts-box__note{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .tenders__contacts p, .tenders__contacts a{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

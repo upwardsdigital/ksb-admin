@@ -1,0 +1,104 @@
+#appeals-page .body{
+    padding: 50px 0 100px 0;
+}
+
+.appeals{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.appeals__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+.appeals__text-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+
+
+.appeal__modal-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.appeal__list{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #FFF;
+}
+.appeal__list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+.appeal__list-item:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.appeal__list-item div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.appeal__list-item div span{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.appeal__list-item div p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+@media screen and (max-width: 730px) {
+    .appeal__modal-box{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .appeal__list{
+        display: flex;
+    }
+    .appeals__text-box{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+}

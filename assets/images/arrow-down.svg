@@ -1,0 +1,15 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="vuesax/linear/arrow-down">
+<g id="vuesax/linear/arrow-down_2">
+<g id="arrow-down">
+<path id="Vector" d="M19.92 8.95L13.4 15.47C12.63 16.24 11.37 16.24 10.6 15.47L4.07999 8.95" stroke="url(#paint0_linear_1813_7850)" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1813_7850" x1="12" y1="10.9272" x2="10.9662" y2="16.2008" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BF1A1F"/>
+<stop offset="1" stop-color="#DD383D"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,77 @@
+#governance-page .body{
+    padding: 50px 0 100px 0;
+}
+.governance{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.governance__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.governance-item{
+    display: flex;
+    height: 206px;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    background: #FFF;
+    box-shadow: -1px 4px 8px 0 rgba(40, 40, 40, 0.05);
+}
+.governance-item__img{
+    height: 100%;
+    width: 205px;
+    background-size: cover;
+    background-position: center;
+}
+.governance-item__info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.governance-item__info span{
+    color: #282828;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+.governance-item__info p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+@media screen and (max-width: 730px) {
+    .governance-item{
+        gap: 20px;
+        height: 110px;
+    }
+    .governance-item__img{
+        width: 110px;
+    }
+    .governance-item__info span{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .governance-item__info p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+}

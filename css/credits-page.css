@@ -1,0 +1,346 @@
+#credits-page .body{
+    padding: 50px 0 100px 0;
+}
+#credits-page .default-table th, #credits-page .default-table td div{
+    text-align: start;
+    justify-content: flex-start;
+}
+.credits{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credits__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+}
+.credits__text{
+    width: 100%;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+}
+.credits__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+.credit{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -1px 4px 8px 0 rgba(40, 40, 40, 0.05);
+    gap: 188px;
+}
+.credit__img{
+    width: 259px;
+    height: 259px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+.credit__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.credit__title{
+    color: #282828;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.credit__props{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.credit__props div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.credit__props div span{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+.credit__props div p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.credits__links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.credit-view{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credit-view__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+}
+.credit-view__head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+.credit-view__title{
+    width: 100%;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+}
+.credit-view__nav-buttons{
+    flex-shrink: 0;
+    display: flex;
+    width: 310px;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -1px 2px 9px 0 rgba(40, 40, 40, 0.08);
+    margin-top: -170px;
+}
+.credit-view__nav-button{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+}
+.credit-view__nav-button.active{
+    color: #BF1A1F;
+}
+.credit-view__nav-button:hover{
+    color: #BF1A1F;
+}
+.credit-view__props{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.credit-view__prop{
+    width: 100%;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -1px 2px 9px 0 rgba(40, 40, 40, 0.08);
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.credit-view__prop div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.credit-view__prop div span{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+.credit-view__prop div p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.credit-view__head .default-select{
+    display: none;
+}
+
+
+.credits-properties__list{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #FFF;
+}
+.credits-properties__list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+.credits-properties__list-item:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.credits-properties__list-item div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.credits-properties__list-item div span{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.credits-properties__list-item div p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+#credits-page .default-modal__container{
+    max-width: unset;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .credit {
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .credit{
+        padding: 20px;
+    }
+    .credit__title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .credit__props div span{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .credit__props div p{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .credit-view__head{
+        flex-direction: column-reverse;
+    }
+    .credit-view__nav-buttons{
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+    .credit__img{
+        display: none;
+    }
+    .credit__info{
+        gap: 20px;
+    }
+    .credits__container{
+        gap: 40px;
+    }
+    .credits__list{
+        gap: 20px;
+    }
+    .credits__text{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .credit-view__title{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .credit-view__nav-buttons{
+        display: none;
+    }
+    .credit-view__head .default-select{
+        display: flex;
+    }
+    .credit-view__container{
+        gap: 40px;
+    }
+    .credit-view__props{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .credit-view__prop{
+        padding: 20px;
+    }
+    .credit-view__prop img{
+        width: 44px;
+    }
+    .credits-properties__list{
+        display: flex;
+    }
+
+    #credits-page .default-modal__show-button{
+        display: flex;
+    }
+}

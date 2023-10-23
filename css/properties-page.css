@@ -1,0 +1,229 @@
+#properties-page .body{
+    padding: 50px 0 100px 0;
+}
+
+.properties{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.properties__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+.properties__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+.property{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 2px solid #D2D2D2;
+}
+.property__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.property__header-title{
+    color: #282828;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.property__header-icon{
+    flex-shrink: 0;
+}
+.property__body{
+    display: none;
+    width: 100%;
+    padding: 50px 20px;
+}
+.property.active .property__header-icon{
+    transform: rotate(180deg);
+}
+.property.active .property__header-title{
+    color: #BF1A1F;
+}
+.property__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.property__info-title{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+.property__info-text{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+.property__info-slider{
+    width: 100%;
+    margin: 30px 0;
+}
+.property__info-slider-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+.property__info-slider-item-wrapper{
+    width: 508px;
+    height: 288px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.property__info-slider .slick-dots{
+    position: absolute;
+    bottom: -20px;
+}
+.property__info-slider .slick-dots li{
+    list-style: none;
+    width: unset;
+    height: unset;
+}
+.property__info-slider .slick-dots li button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+.property__info-slider .slick-dots li button:before{
+    display: none;
+}
+.property__info-slider .slick-dots .slick-active button{
+    background: #BF1A1F;
+}
+
+.property__info-price-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.property__info-price{
+    color: #282828;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+.property__info-link{
+    color: #BF1A1F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.18px;
+}
+
+.properties__contacts-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.properties__contacts-box__note{
+    text-align: start;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%;
+}
+.properties__contacts{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.properties__contacts div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.properties__contacts p, .properties__contacts a{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.523%; /* 26.804px */
+}
+
+@media screen and (max-width: 730px) {
+    .property__header-title{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .property__info-title{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .property__info-text{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .property__body{
+        padding: 15px 0;
+    }
+    .property__info-price{
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .property__info-link{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .properties__contacts-box__note{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .properties__contacts p, .properties__contacts a{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,227 @@
+.about-bank-banner{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.about-bank-banner .default-wrapper{
+    height: 100%;
+}
+
+.about-bank-banner__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 0 133px 0;
+}
+.about-bank-banner__title-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about-bank-banner__text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about-bank-banner__title{
+    color: #FFF;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.about-bank-banner__subtitle{
+    width: 100%;
+    max-width: 645px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+.about-bank-banner__title-box .breadcrumbs__item{
+    color: white;
+}
+.about-bank-banner__title-box .default-wrapper{
+    padding: 0;
+}
+.about-bank-banner__title-box .page-title{
+    color: white;
+}
+
+.about-bank-main-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 90px 0 180px 0;
+    gap: 100px;
+}
+
+.about-bank__history{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-bank__history-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+.about-bank__history-title{
+    width: 100%;
+    text-align: start;
+    color: #282828;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.about-bank__history-text{
+    text-align: start;
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+.about-bank__mission{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-bank__mission-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.about-bank__mission-title{
+    color: #282828;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.about-bank__mission-text{
+    color: #282828;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 147.023%;
+}
+
+.about-bank__values{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-bank__values-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+.about-bank__values-title{
+    color: #282828;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.about-bank__values-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.about-bank__values-items .news-item__text{
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+}
+
+.about-bank-main-section .brief-info__item p, .about-bank-main-section .news-item__text{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 730px) {
+    .about-bank-main-section .brief-info__item p, .about-bank-main-section .news-item__text{
+        font-size: 12px;
+    }
+    .about-bank-main-section{
+        padding: 40px 0 114px 0;
+        gap: 70px;
+    }
+    .about-bank-banner__container{
+        padding: 40px 0;
+    }
+    .about-bank-banner{
+        height: 319px;
+    }
+    .about-bank-banner__title{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    .about-bank-banner__subtitle{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    .about-bank__history-title{
+        color: #282828;
+        width: 100%;
+        text-align: start;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .about-bank__history-text{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 147.023%;
+        text-align: start;
+    }
+    .about-bank__mission-title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .about-bank__mission-text{
+        font-size: 14px;
+        font-style: normal;
+    }
+    .about-bank__values-title{
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .about-bank__values-items{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,77 @@
+#money-transfers-page .body{
+    padding: 50px 0 100px 0;
+}
+
+.money-transfers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.money-transfers__container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+
+.money-transfers__list{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 14px 18px;
+    border-radius: 10px;
+    background: #FFF;
+}
+.money-transfers__list-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+.money-transfers__list-item:last-child{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.money-transfers__list-item div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.money-transfers__list-item div span{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.money-transfers__list-item div p{
+    color: #282828;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147.023%; /* 20.583px */
+}
+
+@media screen and (max-width: 730px) {
+    .money-transfers__list{
+        display: flex;
+    }
+    .money-transfers__container{
+        gap: 50px;
+    }
+}
